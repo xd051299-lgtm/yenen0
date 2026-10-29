@@ -17,7 +17,7 @@ def run_dummy_server():
 threading.Thread(target=run_dummy_server, daemon=True).start()
 
 # =====================================================================
-# 🤖 SELF-BOT - TYPING 2 SANİYE + MESAJ SONRASI BEKLEME 0
+# 🤖 SELF-BOT - TYPING 10 SANİYE + MESAJ SONRASI BEKLEME 0
 # =====================================================================
 
 TOKEN = os.getenv("SELF_TOKEN")
