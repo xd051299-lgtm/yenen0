@@ -70,7 +70,7 @@ async def mesaj_gonderme_dongusu():
 
             # 10 saniye typing göster
             async with kanal.typing():
-                await asyncio.sleep(10)
+                await asyncio.sleep()
 
             # Mesajı gönder
             await kanal.send(mesaj)
@@ -81,7 +81,7 @@ async def mesaj_gonderme_dongusu():
 
         except Exception as e:
             print(f"❌ Mesaj gönderme hatası: {e}")
-            await asyncio.sleep(5)
+            await asyncio.sleep(4)
 
 @client.event
 async def on_ready():
